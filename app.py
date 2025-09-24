@@ -25,7 +25,7 @@ all_archetypes = [
 ]
 
 # Shared embedder
-embedder = SentenceTransformer("all-mpnet-base-v2")
+embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
 # FastAPI app
 app = FastAPI()
